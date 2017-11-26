@@ -16,7 +16,8 @@ def get_most_frequent_words(text):
     words_count_dict = collections.Counter()
     for word in text:
         words_count_dict[word] += 1
-    return words_count_dict.most_common(10)
+    top_size = 10
+    return words_count_dict.most_common(top_size)
 
 
 if __name__ == '__main__':
