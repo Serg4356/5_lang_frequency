@@ -28,4 +28,4 @@ def get_most_frequent_words(text):
     return top_ten_words
 
 if __name__ == '__main__':
-    print(get_most_frequent_words(load_data('War_and_peace.txt')))
+    print('Топ 10 наиболее часто встречающихся слов: \n',get_most_frequent_words(load_data(sys.argv[0])))
