@@ -1,4 +1,5 @@
 import sys
+import collections
 
 
 def load_data(filepath):
@@ -12,14 +13,10 @@ def get_most_frequent_words(text):
     for symbol in symbols:
         text = text.replace(symbol, '')
     text = text.split(' ')
-    words_count_dict = dict()
+    words_count_dict = collections.Counter()
     for word in text:
-        try:
-            words_count_dict[word] = words_count_dict[word] + 1
-        except KeyError:
-            words_count_dict[word] = 1
-    words_count_sorted_tuples = sorted(list(words_count_dict.items()), key=lambda word: word[1])
-    return words_count_sorted_tuples[-10:]
+        words_count_dict[word] += 1
+    return words_count_dict.most_common(10)
 
 
 if __name__ == '__main__':
