@@ -20,9 +20,17 @@ Example of programm output:
 
 # Analysed text - War and Peace/Tolstoy
 
-Топ 10 наиболее часто встречающихся слов:
-[('и', 13711), ('в', 6455), ('не', 5660), ('что', 4662), ('на', 3936), ('с', 3782), ('он', 3762), ('как', 2588), ('его', 2508), ('к', 2194)]
-
+Top ten most frequent words in text: 
+Place 1. Word: и. Frequency: 13711
+Place 2. Word: в. Frequency: 6455
+Place 3. Word: не. Frequency: 5660
+Place 4. Word: что. Frequency: 4662
+Place 5. Word: на. Frequency: 3936
+Place 6. Word: с. Frequency: 3782
+Place 7. Word: он. Frequency: 3762
+Place 8. Word: как. Frequency: 2588
+Place 9. Word: его. Frequency: 2508
+Place 10. Word: к. Frequency: 2194
 
 ```
 
