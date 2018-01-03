@@ -1,6 +1,6 @@
 # Frequency Analysis of Words
 
-Programm displays top 10 most frequent words and their frequency
+Programm displays top 10 most frequent words and their frequency. Programm works only with 'windows-1251' encoding. 
 
 # Quickstart
 
@@ -21,16 +21,16 @@ Example of programm output:
 # Analysed text - War and Peace/Tolstoy
 
 Top ten most frequent words in text: 
-Place 1. Word: и. Frequency: 13711
-Place 2. Word: в. Frequency: 6455
-Place 3. Word: не. Frequency: 5660
-Place 4. Word: что. Frequency: 4662
-Place 5. Word: на. Frequency: 3936
-Place 6. Word: с. Frequency: 3782
-Place 7. Word: он. Frequency: 3762
-Place 8. Word: как. Frequency: 2588
-Place 9. Word: его. Frequency: 2508
-Place 10. Word: к. Frequency: 2194
+"и". freq.: 13711
+"в". freq.: 6455
+"не". freq.: 5660
+"что". freq.: 4662
+"на". freq.: 3936
+"с". freq.: 3782
+"он". freq.: 3762
+"как". freq.: 2588
+"его". freq.: 2508
+"к". freq.: 2194
 
 ```
 
