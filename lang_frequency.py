@@ -10,7 +10,7 @@ def load_data(filepath):
 
 
 def get_most_frequent_words(text):
-    text = re.split(r'\W+', text)
+    text = re.split(r'\W+', text.lower())
     words_counter = collections.Counter(text)
     output_number_of_words = 10
     return words_counter.most_common(output_number_of_words)
